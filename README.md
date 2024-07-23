@@ -1,95 +1,64 @@
 <html>
-<h6>Project Name</h6>
-Table of Contents
-Introduction
-Features
-Getting Started
-Prerequisites
-Installation
-Running the Application
-Configuration
-Testing
-Built With
-Contributing
-License
-Contact
-Introduction
-A brief description of what your project does and the problem it solves.
+<h1 align=center><u>Basic CRUD Spring Boot Project</u></h1>
+  <br>
+<h2>Introduction</h2>
+This is a basic Spring Boot project demonstrating CRUD operations with a MariaDB database. It uses Gradle with Groovy for build and dependency management.
+<h2>Features</h2>
+•	Create, Read, Update, Delete operations on a sample entity <br>
+•	Integration with MariaDB <br>
+•	RESTful API endpoints <br>
+•	Hot reloading with Spring Boot Dev Tools
+  
+<h2>Getting Started</h2>
+These instructions will help you set up and run the project on your local machine for development and testing purposes.
+<h2>Prerequisites</h2>
+•	Java JDK 8+
+•	Gradle 6+ <br>
+•	MariaDB <br>
+•	IDE (IntelliJ, Eclipse, etc.) <br>
+•	Git <br>
 
-Features
-List of features implemented in the project:
-
-Feature 1
-Feature 2
-Feature 3
-Getting Started
-Instructions to get a copy of the project up and running on your local machine for development and testing purposes.
-
-Prerequisites
-What things you need to install the software and how to install them:
-
-Java JDK 8+
-Maven 3+
-IDE (IntelliJ, Eclipse, etc.)
-Git
-Installation
-Step-by-step guide to installing the project:
-
-Clone the repository:
+<h2>Installation</h2>
+1.	Clone the repository:
 sh
 Copy code
 git clone https://github.com/your-username/your-repo-name.git
-Navigate to the project directory:
+2.	Navigate to the project directory:
 sh
 Copy code
 cd your-repo-name
-Install the dependencies:
+3.	Install the dependencies:
 sh
 Copy code
-mvn clean install
-Running the Application
-Instructions to run the Spring Boot application:
+./gradlew build
 
+<h2>Running the Application</h2>
+You can run the Spring Boot application using the following command:
 sh
 Copy code
-mvn spring-boot:run
+./gradlew bootRun
 Alternatively, you can run the application from your IDE by running the main method in the YourApplicationClass.
 
-Configuration
-Details on how to configure the project, including environment variables, configuration files, etc.
-
-Example:
-
+<h2>Configuration</h2>
+Configure the application to connect to your MariaDB database by editing the application.properties file:
 properties
-Copy code
+Copy code![Screenshot 2024-07-23 203228](https://github.com/user-attachments/assets/b2df1a89-1cf8-426d-90c1-c760112c81a9)
+
 # src/main/resources/application.properties
-server.port=8080
-spring.datasource.url=jdbc:mysql://localhost:3306/yourdatabase
+spring.datasource.url=jdbc:mariadb://localhost:3306/yourdatabase
 spring.datasource.username=root
 spring.datasource.password=password
-Testing
-Explain how to run the automated tests for this system:
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+spring.jpa.show-sql=true
 
-sh
-Copy code
-mvn test
-Built With
-Spring Boot - The framework used
-Maven - Dependency Management
-H2 Database - In-memory database for testing
-Contributing
-Guidelines for contributing to the project:
+<h2>Built With</h2>
+•	Spring Boot - The framework used
+•	Gradle - Build and dependency management  <br>
+•	MariaDB - Database <br>
+•	Spring Data JPA - Data persistence <br>
+•	Spring Web - Building web, including RESTful, applications <br>
+•	Spring Boot Dev Tools - Hot reloading <br>
 
-Fork the repository
-Create your feature branch (git checkout -b feature/fooBar)
-Commit your changes (git commit -am 'Add some fooBar')
-Push to the branch (git push origin feature/fooBar)
-Create a new Pull Request
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
-Your Name - your-email@example.com
-
-Project Link: https://github.com/your-username/your-repo-name
 </html>
