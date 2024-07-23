@@ -1,4 +1,5 @@
-Project Name
+<html>
+<h1>Project Name</h1>
 Table of Contents
 Introduction
 Features
@@ -91,3 +92,4 @@ Contact
 Your Name - your-email@example.com
 
 Project Link: https://github.com/your-username/your-repo-name
+</html>
