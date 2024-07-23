@@ -1,5 +1,5 @@
 <html>
-<h1>Project Name</h1>
+<h6>Project Name</h6>
 Table of Contents
 Introduction
 Features
