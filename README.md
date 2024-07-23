@@ -41,16 +41,13 @@ Alternatively, you can run the application from your IDE by running the main met
 
 <h2>Configuration</h2>
 Configure the application to connect to your MariaDB database by editing the application.properties file:
-properties
-Copy code![Screenshot 2024-07-23 203228](https://github.com/user-attachments/assets/b2df1a89-1cf8-426d-90c1-c760112c81a9)
-
-# src/main/resources/application.properties
-spring.datasource.url=jdbc:mariadb://localhost:3306/yourdatabase
-spring.datasource.username=root
-spring.datasource.password=password
-spring.jpa.hibernate.ddl-auto=update
-spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
-spring.jpa.show-sql=true
+<br><br>
+spring.datasource.url=jdbc:mariadb://localhost:3306/yourdatabase <br>
+spring.datasource.username=root <br>
+spring.datasource.password=password <br>
+spring.jpa.hibernate.ddl-auto=update <br>
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver <br>
+spring.jpa.show-sql=true <br>
 
 <h2>Built With</h2>
 •	Spring Boot - The framework used
