@@ -9,35 +9,12 @@ This is a basic Spring Boot project demonstrating CRUD operations with a MariaDB
 •	RESTful API endpoints <br>
 •	Hot reloading with Spring Boot Dev Tools
   
-<h2>Getting Started</h2>
-These instructions will help you set up and run the project on your local machine for development and testing purposes.
 <h2>Prerequisites</h2>
 •	Java JDK 8+
 •	Gradle 6+ <br>
 •	MariaDB <br>
 •	IDE (IntelliJ, Eclipse, etc.) <br>
 •	Git <br>
-
-<h2>Installation</h2>
-1.	Clone the repository:
-sh
-Copy code
-git clone https://github.com/your-username/your-repo-name.git
-2.	Navigate to the project directory:
-sh
-Copy code
-cd your-repo-name
-3.	Install the dependencies:
-sh
-Copy code
-./gradlew build
-
-<h2>Running the Application</h2>
-You can run the Spring Boot application using the following command:
-sh
-Copy code
-./gradlew bootRun
-Alternatively, you can run the application from your IDE by running the main method in the YourApplicationClass.
 
 <h2>Configuration</h2>
 Configure the application to connect to your MariaDB database by editing the application.properties file:
