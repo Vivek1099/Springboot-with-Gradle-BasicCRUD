@@ -18,12 +18,12 @@ This is a basic Spring Boot project demonstrating CRUD operations with a MariaDB
 ## Configuration
 Configure the application to connect to your MariaDB database by editing the application.properties file:
 ```sh
-spring.datasource.url=jdbc:mariadb://localhost:3306/yourdatabase <br>
-spring.datasource.username=root <br>
-spring.datasource.password=password <br>
-spring.jpa.hibernate.ddl-auto=update <br>
-spring.datasource.driver-class-name=org.mariadb.jdbc.Driver <br>
-spring.jpa.show-sql=true <br>
+spring.datasource.url=jdbc:mariadb://localhost:3306/yourdatabase 
+spring.datasource.username=root 
+spring.datasource.password=password 
+spring.jpa.hibernate.ddl-auto=update 
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver 
+spring.jpa.show-sql=true 
 ```
 
 ## Built With
